@@ -1,0 +1,6 @@
+--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork 
+-ID:\Keil_v5\ARM\RV31\INC
+-ID:\Keil_v5\ARM\CMSIS\Include
+-ID:\Keil_v5\ARM\INC\NXP\LPC17xx
+--pd "__UVISION_VERSION SETA 524" --pd "__BUILD_WITH_EXAMPLE__ SETA 1" --pd "__RAM_MODE__ SETA 0"
+--list .\listing\startup_lpc17xx.lst --xref -o .\output\startup_lpc17xx.o --depend .\output\startup_lpc17xx.d "..\Libraries\CM3\DeviceSupport\NXP\LPC17xx\startup\arm\startup_LPC17xx.s"

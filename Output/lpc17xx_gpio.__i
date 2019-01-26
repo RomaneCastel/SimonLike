@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --enum_is_int -I ..\Libraries\LCP1768_StdPeriph_Driver\include -I ..\Libraries\CM3\CoreSupport -I ..\Libraries\CM3\DeviceSupport\NXP\LPC17xx -I ..\User
+-ID:\Keil_v5\ARM\RV31\INC
+-ID:\Keil_v5\ARM\CMSIS\Include
+-ID:\Keil_v5\ARM\INC\NXP\LPC17xx
+-D__UVISION_VERSION="524"
+-o .\output\lpc17xx_gpio.o --omf_browse .\output\lpc17xx_gpio.crf --depend .\output\lpc17xx_gpio.d "..\Libraries\LCP1768_StdPeriph_Driver\source\lpc17xx_gpio.c"
